@@ -24,9 +24,13 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ed13fb6b33.js" crossorigin="anonymous"></script>
   <!-- =======================================================
   * Template Name: Resume - v4.9.1
   * Template URL: https://github.com/Willj518/resume/template/
@@ -50,6 +54,14 @@
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+.company-signature {
+  width: 150px;
+  /* border-radius: 50%; */
+  margin: 0 0 0 40px;
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
   </style>
 </head>
 
@@ -62,7 +74,7 @@
       <h1><a href="index.html">William White</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>Senior Customer Success Manager </span> in Seattle</h2>
+      <h2>I'm an experienced <span>Senior Customer Success Manager </span> in Seattle</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -76,11 +88,12 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+
       <div class="social-links">
-        <a href="https://twitter.com/willj518" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://twitter.com/willj518" class="twitter"><i class="bi bi-twitter"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/william--white/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/william--white/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -104,14 +117,14 @@
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Senior Customer Success Manager </h3>
           <p class="fst-italic">
-            10+ years' experience in enterprise technical customer success & support, business analysis and software implementation. Strong leadership experience in both onsite and virtual settings.
+            12+ years' experience in enterprise technical customer success & support, business analysis and software implementation. Strong leadership experience in both onsite and virtual settings.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
                 <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
                 <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>tinyurl.com/williamjwhite</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+858 247 1645</span></li>
+                <li><i class="bi bi-chevron-right phonenumber" id="phoneNumber"></i> <strong>Phone:</strong> <span>+858 247 1645</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Seattle, WA</span></li>
               </ul>
             </div>
@@ -275,7 +288,7 @@
           <h3 class="resume-title">Sumary</h3>
           <div class="resume-item pb-0">
             <h4>William White</h4>
-            <p><em>Innovative and deadline-driven Senior Customer Success Manager  with 15+ years of experience delivering success to enterprise clients.</em></p>
+            <p><em>Innovative and results-driven Senior Customer Success Manager  with 12+ years of experience delivering success to enterprise clients.</em></p>
             <p>
             <ul>
               <li>Seattle, WA</li>
@@ -311,7 +324,20 @@
             <p></p>
           </div>
 
+          <h3 class="resume-title">Certifications</h3>
+          <div class="resume-item">
+
+            <h4>DocuSign Customer Success Architect</h4>
+            <p><em>DocuSign, Seattle, WA</em></p>
+            <p>
+              <img class="fit-picture"
+              src="assets/img/certificates/docusign_csa.png">     
+            </p>
+          </div>  
+    <!-- ======= Interests ======= -->
+
         </div>
+
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
@@ -329,7 +355,7 @@
           </div>
 
           <div class="resume-item">
-            <h4>Solutions Architect</h4>
+            <h4>Solutions Architect &amp; Project Manager</h4>
             <img class="fit-picture"
             src="assets/img/employers/eoriginal_logo.png">
             <h5>2013 - 2017</h5>
@@ -340,25 +366,16 @@
           <em>Seattle, WA </em>
             <p>
             <ul>
-              <li>	Coordinated internal and external resources to deliver successful customer implementations and consultative projects. 	</li>
-              <li>	Ensured contracted services ranging from $5,000 to $7.5 million were delivered on time, within scope and budget. 	</li>
-              <li>	Educated and trained clients how to use the product platform and existing	</li>
-                integrations as well as provide professional services on the design of custom integrations. 	
-                  
-              <li>	Consulted and analyzed business processes of existing systems and	
-                subsequently provided consultation and guidance on how to build custom integrations to meet their business needs and workflow. 	</li>
-                  
-              <li>	Performed risk management to minimize compliance and project risks. 	</li>
-                  
-              <li>	Served as a Digital Signature and DocuSign integration SME, Technical Consultant.	</li>
-                  
-              <li>	Project Manager and Solution Architect for the Digital Mortgage initiative with DocuSign, eOriginal, MERS, Fannie Mae and Freddie Mac to architect, design and implement a eMortgage/eClosing integrated solution. 	</li>
-                  
-              <li>	Provided guidance and support across industries ranging from Automotive, Hospitality & Vacation Ownership, Retail, Solar and Equipment Finance.	</li>
-                  
-                  
-                  
-              <li>	Represented Customer Success and Professional services on a Salesforce steering committee where I vetted multiple vendor solutions to replace the CRM and PM software.	</li>
+              <li>	Served as a trusted technical advisor, SME and primary point of contact and escalations for a portfolio of high-value, strategic enterprise partner clients across various verticals.	</li>
+              <li>	Provided technical guidance and documentation to customers and partners on how to design their solution for scale and seamless integration with existing systems and configurations.	</li>
+              <li>	Drove individual and helped to drive team key performance indicators (KPI).  Contributed to developing strategies to meet the needs of the customer and their business.	</li>
+              <li>	Provided thought leadership with regards to overcoming customer challenges and identified strategic growth opportunities. 	</li>
+              <li>	Created, nurtured and maintained customer advocate relationships with strategic partner accounts. Worked closely with partner managers, business development, account management and executive teams to consistently strengthen and grow each relationship. 	</li>
+              <li>	Identified problems and provided action plans for highly complex problems and incidents.  	</li>
+              <li>	Mentored technical support representatives, providing assistance and effective solutions resolving escalations of the most difficult or advanced customer issues. 	</li>
+              <li>	Hosted regularly scheduled lunch and learns for technical support and customer service teams to promote professional development, skill building, and team bonding. Also used this time to increase awareness and provide training on partner product integrations.	</li>
+              <li>	Provided advanced technical support, software development guidance and best practices to prospective partners building their own DocuSign integrated solution. 	</li>
+              <li>	Accompanied executive and sales engineers on pre-sales calls and site visits as a trusted technical advisor. 	</li>
             </ul>
             </p>
           </div>
@@ -482,7 +499,7 @@
   </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
+  <!-- <section id="portfolio" class="portfolio">
     <div class="container">
 
       <div class="section-title">
@@ -632,7 +649,7 @@
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </section>End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
@@ -658,11 +675,11 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="https://twitter.com/willj518" target="_blank" class="twitter"></i></a>
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="https://www.linkedin.com/in/william--white/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -676,9 +693,9 @@
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
-            <i class="bx bx-phone-call"></i>
+            <i class="bx bx-phone-call phonenumber"></i>
             <h3>Call Me</h3>
-            <p>+1 858 247 1645</p>
+            <p id="phoneNumber">+1 858 247 1645</p>
           </div>
         </div>
       </div>
@@ -713,16 +730,40 @@
 
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+<script>
+  $(document).ready(function() {
+    var phonenumbers = [];
+    $(".phonenumber").each(function(i) {
+        phonenumbers.push($(this).text());
+        var newcontent = $(this).text().substr(0, $(this).text().length - 4)
+        $(this).text(newcontent);
+        $(this).bind("click", function() {
+            if ($(this).text() == phonenumbers[i]) {
+                $(this).text(phonenumbers[i].substr(0, phonenumbers[i].length - 4));
+            } else {
+            $(".phonenumber").each(function(x) {
+                if ($(this).text() == phonenumbers[x]) {
+                   $(this).text(phonenumbers[x].substr(0, phonenumbers[x].length - 4));
+                }
+            });            
+            $(this).text(phonenumbers[i]);
+            }
+        });
+    });
+});
+</script>
 
 </body>
 
